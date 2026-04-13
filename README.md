@@ -185,7 +185,7 @@ Threat Scorer (0–100)
 
 ---
 
-## 🎓 Resume Highlights (for Internship Applications)
+## 🎓Highlights 
 
 - Built end-to-end ML pipeline for cybersecurity threat detection with **97%+ accuracy**
 - Engineered **40+ custom features** including Tor exit node, VirusTotal, and hidden URL mismatch detection

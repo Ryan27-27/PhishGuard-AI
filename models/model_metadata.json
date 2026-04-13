@@ -1,0 +1,72 @@
+{
+  "timestamp": "20260414_010203",
+  "features": [
+    "has_ip_address",
+    "url_length",
+    "url_depth",
+    "has_at_symbol",
+    "has_double_slash_redirect",
+    "has_http_in_domain",
+    "is_shortened_url",
+    "has_dash_in_domain",
+    "subdomain_count",
+    "has_suspicious_tld",
+    "digit_ratio_in_domain",
+    "special_char_count",
+    "entropy_domain",
+    "entropy_path",
+    "has_port",
+    "domain_age_days",
+    "domain_expiry_days",
+    "whois_available",
+    "has_dns_a_record",
+    "has_mx_record",
+    "dns_ip_count",
+    "typosquatting_detected",
+    "typosquatting_edit_distance",
+    "has_homoglyph",
+    "registrar_is_free",
+    "uses_https",
+    "ssl_valid",
+    "ssl_days_until_expiry",
+    "ssl_self_signed",
+    "ssl_issuer_trusted",
+    "redirect_count",
+    "has_suspicious_keywords",
+    "num_query_params",
+    "has_brand_in_subdomain",
+    "url_has_encoded_chars"
+  ],
+  "n_features": 35,
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "cv_results": {
+    "XGBoost": {
+      "accuracy": "0.9922 \u00b1 0.0039",
+      "f1": "0.9960 \u00b1 0.0020",
+      "roc_auc": "0.9993 \u00b1 0.0013",
+      "precision": "0.9921 \u00b1 0.0040",
+      "recall": "1.0000 \u00b1 0.0000"
+    },
+    "RandomForest": {
+      "accuracy": "0.9922 \u00b1 0.0113",
+      "f1": "0.9960 \u00b1 0.0059",
+      "roc_auc": "1.0000 \u00b1 0.0000",
+      "precision": "0.9980 \u00b1 0.0040",
+      "recall": "0.9940 \u00b1 0.0120"
+    },
+    "LightGBM": {
+      "accuracy": "0.9903 \u00b1 0.0106",
+      "f1": "0.9950 \u00b1 0.0056",
+      "roc_auc": "0.9990 \u00b1 0.0020",
+      "precision": "0.9980 \u00b1 0.0040",
+      "recall": "0.9920 \u00b1 0.0117"
+    }
+  },
+  "training_samples": 1000
+}

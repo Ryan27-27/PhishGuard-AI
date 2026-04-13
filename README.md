@@ -1,8 +1,6 @@
 # 🛡️ PhishGuard Pro — Advanced Phishing Detection System
 
 > An ML-powered, real-time phishing detection engine with VirusTotal API, Tor exit node detection, hidden URL mismatch analysis, and a full-featured REST API + dashboard.
-
-**Upgrade over** [shreyagopal's original project](https://github.com/shreyagopal/Phishing-Website-Detection-by-Machine-Learning-Techniques):
 - Original: 17 features, single XGBoost model (86.4% accuracy), no real-time API
 - **PhishGuard Pro: 40+ features, ensemble model, real-time API, VirusTotal, Tor detection, URL mismatch, threat scoring**
 
